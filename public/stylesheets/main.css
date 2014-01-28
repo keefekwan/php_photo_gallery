@@ -1,0 +1,28 @@
+/* Site Colors: 
+	#708090 - slate grey
+	#D4E6F4 - very light blue
+	#EAEAEA - sgi gray 92	
+	#FFFFFF - white
+	#4682B4 - steelblue
+*/
+
+html { height: 100%; width: 100%; }
+body { height: 100%; width: 100%; margin: 0; padding: 0; border: 0; background: #FFFFFF;
+	font: 13px/15px Verdana, Arial, Helvetica, sans-serif; }
+img { border: none; }
+table, tr, td, tr { border-collapse: collapse; vertical-align: top; text-align: left; 
+	font: 13px/15px Verdana, Arial, Helvetica, sans-serif; }
+a { color: #4682B4; }
+
+#header { height: 70px; text-align: left; background: slateGray; color: #D4E6F4; }
+#header h1 { padding: 1em; margin: 0; }
+
+/* Note: IE 5 & 6 won't understand min-height */
+#main { min-height: 600px; width: 100%; background: #EAEAEA; padding: 2em; }
+
+#footer { height: 2em; padding: 1em; text-align: center; 
+	background: slateGray; color: #D4E6F4; }
+
+table.bordered tr th, table.bordered tr td { border: 1px solid #000000; }
+
+#pagination .selected { font-weight: bold; color: #8D0D19; }
